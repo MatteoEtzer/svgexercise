@@ -3,7 +3,18 @@ h1 {
     padding-left: 50%;
 
 }
-svg {
-    padding-left: 50%;
-    margin-left: 0 auto;
+.face {
+    padding-left: 42.5%;
+}
+
+#right_eye {
+    transform: rotate(-2deg);
+}
+
+#left_eye {
+    transform: rotate(2deg);
+}
+
+#left_eyebrow {
+    transform: rotate(-7deg);
 }

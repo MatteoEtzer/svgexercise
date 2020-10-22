@@ -9,10 +9,13 @@
         </head>
     <body>
         <h1 id="header">!FACE!</h1>
-        <svg width="700" height="700">
+        <svg class="face" width="390" height="390">
             <circle cx="200" cy="200" r="187" fill="#FAC92A" />
-            <ellipse cx="200" cy="110" rx="130" ry="80" style="fill:#FAE72E" /> 
-            <path />
+            <ellipse cx="200" cy="110" rx="130" ry="80" style="fill:#FAE72E" />
+            <ellipse id="left_eye" cx="120" cy="180" rx="50" ry="30" style="fill:white" />
+            <ellipse id="right_eye" cx="280" cy="180" rx="50" ry="30" style="fill:white" />  
+            <path id="left_eyebrow" d="M 140 70 q 25 -15 50 0" stroke="#82371E" stroke-width="5" fill="none" stroke-linecap="round" />
+            <path id="right_eyebrow" d="M 140 70 q 25 -15 50 0" stroke="#82371E" stroke-width="5" fill="none" stroke-linecap="round" />
         </svg>
     </body>
 </html>
