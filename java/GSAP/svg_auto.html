@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SVG Auto</title>
+    <meta name="author" content="Dominic Saletu">
+    <meta name="description" content="SVG Auto">
+    <style>
+        #wrapper {
+            width: 700px;
+            margin: 0 auto;
+        }
+        
+        svg {
+            margin-top: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <button>Click me</button>
+        <svg width="700" height="1000">
+            <!--           <svg viewbox="0 0 1000 1000">-->
+            <polygon points="100,200 100,90 200,70 250,10, 500,10, 500,70, 570,80 570,200" style="stroke:black;stroke-width:5px;fill:yellow;" />
+            <rect width="90" height="50" x="325" y="20" style="fill:lightblue;stroke:black;stroke-width:5px;" />
+            <rect width="60" height="50" x="430" y="20" style="fill:lightblue;stroke:black;stroke-width:5px;" />
+            <polygon points="215,70 255,20 310,20 310,70" style="stroke:black;stroke-width:5px;fill:lightblue;" />
+            <g id="frontwheel">
+                <circle cx="200" cy="200" r="50" fill="white" stroke="white" stroke-width="45" />
+                <circle cx="200" cy="200" r="50" fill="lightgrey" stroke="black" stroke-width="30" /> 
+            </g>
+            <g id="rearwheel">
+                <circle cx="480" cy="200" r="50" fill="lightgrey" stroke="white" stroke-width="45" />
+                <circle cx="480" cy="200" r="50" fill="lightgrey" stroke="black" stroke-width="30" />
+            </g>
+            <line x1="0" x2="700" y1="265" y2="265" style="stroke:black;stroke-width:5px;" />
+        </svg>
+    </div>
+</body>
+
+</html>
